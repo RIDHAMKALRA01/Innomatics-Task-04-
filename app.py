@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-genai.configure(api_key="AIzaSyCk5E_4Honj7ZXWyoUJ8z_SMcYzK4lNSo8")
+genai.configure(api_key="API KEY")
 
 sys_prompt = """You are a helpful AI Code Reviewer. 
 Users will submit Python code, and you are expected to analyze it for common issues such as syntax errors, incorrect imports, and style violations.
